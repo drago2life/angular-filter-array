@@ -1,0 +1,14 @@
+<hello name="{{ name }}"></hello>
+ <div class="vehiclesRow" *ngFor="let product of products|filter:filterData">
+        <a>
+          <div class="vehiclesMain">
+            <span class="textHeader">{{product.Title}}</span>
+            <br>
+             <span class="textHeader">{{product.Version}}</span>
+            <br>
+             <span class="textHeader">{{product.URL}}</span>
+            <br>
+            
+          </div>
+        </a>
+      </div>
